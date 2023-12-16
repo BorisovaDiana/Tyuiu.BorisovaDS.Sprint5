@@ -16,6 +16,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task2.V6.Test
             bool fileExists = fileInfo.Exists;
             bool wait = true;
             Assert.AreEqual(wait, fileExists);
+
         }
     }
 }

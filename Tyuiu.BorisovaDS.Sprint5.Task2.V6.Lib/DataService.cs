@@ -62,6 +62,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task2.V6.Lib
                 str = "";
 
             }
+
             return path;
         }
     }
