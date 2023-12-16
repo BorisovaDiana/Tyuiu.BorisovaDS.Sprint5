@@ -11,7 +11,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task4.V3.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task4.V3\InPutDataFileTask4V3.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task4.V3\bin\Debug\InPutDataFileTask4V3.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;

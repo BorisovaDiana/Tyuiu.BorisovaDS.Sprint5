@@ -12,7 +12,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task5.V4.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"C:\source\repos\Tyuiu.BorisovaDS.Sprint5\InPutDataFileTask5V4.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task5t.V4\bin\Debug\InPutDataFileTask5V4.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
