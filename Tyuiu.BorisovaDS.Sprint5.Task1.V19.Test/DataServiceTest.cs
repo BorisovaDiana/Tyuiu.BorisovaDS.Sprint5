@@ -11,7 +11,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task1.V19.Test
         [TestMethod]
         public void ValidSaveToFileTextData()
         {
-            string path = $@"C:\Users\rusal\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task1.V19\bin\Debug\OutPutFileTask1.txt";
+            string path = $@"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task1.V19\bin\Debug\OutPutFileTask1.txt";
 
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
