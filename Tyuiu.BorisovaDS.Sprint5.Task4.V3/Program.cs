@@ -28,7 +28,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task4.V3
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             DataService ds = new DataService();
-            string path = @"C:\source\repos\Tyuiu.BorisovaDS.Sprint5\InPutDataFileTask4V3.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task4.V3\InPutDataFileTask4V3.txt";
             Console.WriteLine("Данные находятся в файле " + path);
 
             Console.WriteLine("***************************************************************************");

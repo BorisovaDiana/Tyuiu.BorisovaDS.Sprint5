@@ -13,8 +13,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task4.V3.Lib
         public double LoadFromDataFile(string path)
         {
             string strX = File.ReadAllText(path);
-            double x = Convert.ToDouble(strX);
-            double res = Math.Round(((Math.Sin(x) + 4) / (x)) - 1.25 * x, 3);
+            double res = Math.Round(((Math.Sin(Convert.ToDouble(strX)) + 4) / (Convert.ToDouble(strX))) - 1.25 * Convert.ToDouble(strX), 3);
             return res;
         }
     }

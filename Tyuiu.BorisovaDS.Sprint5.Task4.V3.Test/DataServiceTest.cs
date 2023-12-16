@@ -11,11 +11,11 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task4.V3.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"C:\source\repos\Tyuiu.BorisovaDS.Sprint5\InPutDataFileTask4V3.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task4.V3\InPutDataFileTask4V3.txt";
 
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExist = fileInfo.Exists;
-            Assert.AreEqual(true, fileExist);
+            bool fileExists = fileInfo.Exists;
+            Assert.AreEqual(true, fileExists);
         }
     }
 }
