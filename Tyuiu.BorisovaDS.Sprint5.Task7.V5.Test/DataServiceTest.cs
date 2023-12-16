@@ -11,7 +11,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task7.V5.Test
         [TestMethod]
         public void CheckedExistsFileOutPut()
         {
-            string path = @"C:\Users\ДианаБорисова\source\repos\Tyuiu.BorisovaDS.Sprint5\OutPutDataFileTask7V5.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task7.V5\bin\Debug\OutPutFileTask7.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
@@ -22,7 +22,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task7.V5.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask7V5.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task7.V5\bin\Debug\InPutDataFileTask7V5.txt";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
