@@ -12,7 +12,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task7.V5.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            string pathSaveFile = @"C:\Users\ДианаБорисова\source\repos\Tyuiu.BorisovaDS.Sprint5\OutPutDataFileTask7V5.txt";
+            string pathSaveFile = @"C:\OutPutDataFileTask7V5.txt";
 
             FileInfo fileInfo = new FileInfo(pathSaveFile);
             bool fileExists = fileInfo.Exists;

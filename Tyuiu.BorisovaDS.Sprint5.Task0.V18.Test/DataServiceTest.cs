@@ -9,13 +9,13 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task0.V18.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidSaveToFileTextData()
+        public void CheckedExistsFile()
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task0.V18\bin\Debug\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExist = fileInfo.Exists;
+            bool fileExists = fileInfo.Exists;
             bool wait = true;
-            Assert.AreEqual(wait, fileExist);
+            Assert.AreEqual(wait, fileExists);
         }
     }
 }
