@@ -12,7 +12,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task6.V3.Test
         public void ValidCalc()
         {
             DataService ds = new DataService();
-            string path = @"C:\DataSprint5\InPutDataFileTask6V3.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task6.V3\bin\Debug\InPutDataFileTask6V3.txt";
 
             var res = ds.LoadFromDataFile(path);
             int wait = 21;
@@ -22,7 +22,7 @@ namespace Tyuiu.BorisovaDS.Sprint5.Task6.V3.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\DataSprint5\InPutDataFileTask6V3.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.BorisovaDS.Sprint5\Tyuiu.BorisovaDS.Sprint5.Task6.V3\bin\Debug\InPutDataFileTask6V3.txt";
 
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
